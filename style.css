@@ -100,3 +100,44 @@ body {
 .faq-item.active .faq-question .icon {
   content: "-";
 }
+
+/* 📱 Media Queries */
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5rem;
+  }
+
+  .card-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .faq-question {
+    font-size: 0.95rem;
+  }
+
+  .faq-question .icon {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .card-header {
+    gap: 0.5rem;
+  }
+
+  .card-header h1 {
+    font-size: 1.25rem;
+  }
+
+  .faq-question {
+    font-size: 0.9rem;
+  }
+
+  .faq-answer {
+    font-size: 0.85rem;
+  }
